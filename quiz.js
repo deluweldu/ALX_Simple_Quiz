@@ -13,8 +13,8 @@ const feedback = document.getElementById('feedback');
 // Check if an answer was selected
 if (userAnswer) {
     // Compare user's answer with the correct answer
-    if (userAnswer.value === correctAnswer) {
-        feedback.textContent = "Correct! Well done.";
+    if (userAnswer.value = correctAnswer) {
+        feedback.textContent = "Correct! Well Done.";
     } else {
         feedback.textContent = "That's incorrect. Try again";
     }
